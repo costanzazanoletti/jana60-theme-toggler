@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Theme Toggler</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand h1"
+          ><i class="fa-solid fa-house"></i> Home</span
+        >
+        <div class="btn-group">
+          <a id="sun" class="btn btn-warning"
+            ><i class="fa-solid fa-sun"></i
+          ></a>
+          <a id="moon" class="btn btn-info"><i class="fa-solid fa-moon"></i></a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Theme Toggler</h1>
+      <hr />
+      <h2>Paragraph 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        minus nemo accusantium beatae optio nihil reiciendis nesciunt doloribus
+        iste magnam ut, numquam unde veritatis eum mollitia corporis nobis
+        dolorem fugiat.
+      </p>
+      <h2>Paragraph 2</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab
+        explicabo dicta velit incidunt earum nihil facilis quam asperiores,
+        tenetur minima, voluptas distinctio sapiente deleniti pariatur,
+        architecto recusandae nobis. Vel!
+      </p>
+      <div>
+        <h2>Shopping list</h2>
+        <form id="form" action="#">
+          <div class="input-group mb-3">
+            <input
+              id="text-input"
+              type="text"
+              class="form-control"
+              placeholder="Write something"
+              required
+            />
+            <button type="submit" class="btn btn-secondary">Add</button>
+          </div>
+        </form>
+        <!--div id="text-value"></div-->
+        <ul class="list-group" id="items"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="form-script.js"></script>
+  </body>
+</html>
